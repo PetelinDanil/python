@@ -10,11 +10,8 @@ class User:
         self.email = email
 
     def set_age(self, age):
-       if 1 < age < 110:
-            self.__age = age
-       else:
-            print("Incorrect user age")
- 
+       self.__age = age
+       
     def get_age(self):
         return self.__age
  
